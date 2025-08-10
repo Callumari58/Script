@@ -313,7 +313,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "TBoy Roblox Hub",
+    Title = "Tom Ne Day Hub",
     SubTitle = "Blox Fruit",
     TabWidth = 160,
     Theme = "Dark",
@@ -323,49 +323,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Thông Tin"
+        Title = "Discord"
     }),
     Main = v15:AddTab({
-        Title = "Cày"
+        Title = "Farm"
     }),
     Sea = v15:AddTab({
-        Title = "Sự Kiện"
+        Title = "Event"
     }),
     ITM = v15:AddTab({
-        Title = "Vật Phẩm"
+        Title = "Item"
     }),
     Setting = v15:AddTab({
-        Title = "Cài Đặt"
+        Title = "Setting"
     }),
     Status = v15:AddTab({
-        Title = "Máy Chủ"
+        Title = "Server"
     }),
     Stats = v15:AddTab({
-        Title = "Chỉ Số"
+        Title = "Stats"
     }),
     Player = v15:AddTab({
         Title = "Người Chơi"
     }),
     Teleport = v15:AddTab({
-        Title = "Dịch Chuyển"
+        Title = "Teleport"
     }),
     Visual = v15:AddTab({
-        Title = "Giả"
+        Title = "Fake"
     }),
     Fruit = v15:AddTab({
-        Title = "Trái"
+        Title = "Fruit"
     }),
     Raid = v15:AddTab({
-        Title = "Tập Kích"
+        Title = "Raid"
     }),
     Race = v15:AddTab({
-        Title = "Tộc"
+        Title = "Race"
     }),
     Shop = v15:AddTab({
-        Title = "Cửa Hàng"
+        Title = "Shop"
     }),
     Misc = v15:AddTab({
-        Title = "Khác"
+        Title = "Other"
     })
 };
 local v17 = v14.Options;
@@ -9327,4 +9327,5 @@ v14:Notify({
     Title = "TBoy Roblox",
     Content = "Tải Xong",
     Duration = 10
+
 });
